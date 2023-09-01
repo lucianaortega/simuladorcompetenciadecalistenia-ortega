@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, red, black);
+}
+
+header {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.carousel{
+    width: 60%; 
+    height: 60%; 
+    margin-left: 22%;
+}
+
+#banner img {
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.card {
+    width: 45%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card .pino{
+    width: 70%;
+    height: 100%;
+    margin-left: 16%;
+}
+
+.card .fullplanche{
+    margin-top: 19%;
+}
+
+.realize-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#verificar-puntaje {
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 40px 40px;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.confite {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%; 
+    animation: caida 3s linear infinite; 
+}
+
+@keyframes caida {
+    0% {
+        transform: translateY(-50px); 
+        opacity: 1; 
+    }
+    100% {
+        transform: translateY(100vh); 
+        opacity: 1; 
+    }
+}
+
+#puntaje-container{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+
+.icono-social {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icono-social img {
+    width: 30px; 
+    height: 30px; 
+}
